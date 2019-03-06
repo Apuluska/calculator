@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+        <body> 
+    <div class="container">
+        <div class="titulo">
+            <span>Calculadora</span>
+        </div>
+        <div class="cuerpoCalculadora">
+            <div class="pantalla"></div><br>
+            <div class="primeraFila">
+            <button class="boton7 centrales" type="button" id="7" onclick="botonNumerico(7)">7</button>
+            <button class="boton8 centrales" type="button" id="8" onclick="botonNumerico(8)">8</button>
+            <button class="boton9 centrales" type="button" id="9" onclick="botonNumerico(9)">9</button>
+            <button class="botonEntre" type="button" id="dividir" onclick="botonOperador('/')">/</button>
+            </div><br>
+            <div class="segundaFila">
+            <button class="boton4 centrales" type="button" id="4" onclick="botonNumerico(4)">4</button>
+            <button class="boton5 centrales" type="button" id="5" onclick="botonNumerico(5)">5</button>
+            <button class="boton6 centrales" type="button" id="6" onclick="botonNumerico(6)">6</button>
+            <button class="botonMulti" type="button" id="multiplica" onclick="botonOperador('*')">*</button>
+            </div><br>
+            <div class="terceraFila">
+            <button class="boton1 centrales" type="button" id="id1" onclick="botonNumerico(1)">1</button>
+            <button class="boton2 centrales" type="button" id="id2" onclick="botonNumerico(2)">2</button>
+            <button class="boton3 centrales" type="button" id="id3" onclick="botonNumerico(3)">3</button>
+            <button class="botonMenos" type="button" onclick="botonOperador('-')" id="resta">-</button>
+            </div><br>
+            <div class="cuartaFila">
+            <button class="boton0 centrales" type="button" id="0" onclick="botonNumerico(0)">0</button>
+            <button class="botonPunto centrales" type="button" id="." onclick="botonNumerico('.')">.</button>
+            <button class="botonIgual centrales" type="button" id="igual" onclick="botonIgualar()">=</button>
+            <button class="botonSum" type="button" onclick="botonOperador('+')" id="+">+</button>
+            </div>
+            <div class="botonEncendido" button class="boton0" type="button" id="0" onclick="botonEncendido(ON)">ON</button></div>
+        </div>
+    </div>
+    <br>
+    <script >crearCalculadora();</script>
+</body>
+
+
+</html>

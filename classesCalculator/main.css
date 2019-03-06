@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.btn {
+    background-color:black;
+}
+.btn-info{
+    background-color: grey;
+}
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+.titulo {
+	font-family: 'Molle', cursive;
+	font-size: 50px;
+	color: white;
+}
+.cuerpoCalculadora{
+	padding: 0.5cm;
+	width: 10cm;
+	height: 15cm;
+	background-image:radial-gradient( #660033, #800040, #a00050, white);
+	box-shadow: -10px 10px #3F3F3F;
+	z-index: -1;
+	border-radius: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;	
+}
+.pantalla {
+	width: 9cm;
+	height: 2.5cm;
+	border-radius: 10px;
+	background-color: black;
+}
+.primeraFila, .segundaFila, .terceraFila, .cuartaFila {
+	margin-left: 1cm;
+}
+.boton1, .boton2, .boton3, .boton4, .boton5, .boton6, .boton7, .boton8, .boton9, .boton0, .botonPunto,  .botonSum, .botonMulti, .botonMenos, .botonIgual, .botonEntre {border-radius: 100px;
+	border-color: grey;
+	width: 1.8cm;
+	height: 1.8cm;
+	background-image: radial-gradient(grey, #696969, white);
+}
+.centrales{
+	width: 1.5cm;
+	height: 1.5cm;
+}
+.botonEncendido {
+	margin-top: 0.2cm;
+	margin-left: 1cm;
+	padding-top: 0.2cm;
+	border-radius: 10px;
+	border-color: grey;
+	width: 6.5cm;
+	height: 2cm;
+	background-image: linear-gradient(grey, #696969, white);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
